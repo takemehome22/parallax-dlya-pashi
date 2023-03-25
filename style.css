@@ -1,26 +1,15 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-#first_photo {
-  display: flex;
+.parralax {
   position: absolute;
-  width: 100%;;
+  width: 100%;
   height: 100%;
-  justify-content: center;
-  align-items: center;
-background-image: url(1.png);
-background-size: cover;
 }
 
-#two_photo {
-  display: flex;
-  position: absolute;
-  width: 100%;;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  background-image: url(2.png);
-  background-size: cover;
+.space {
+  background: url(1.png);
+  background-size: 110% 110%;
+}
 
+.three {
+  background: url(2.png);
+  background-size: 110% 110%;
 }
